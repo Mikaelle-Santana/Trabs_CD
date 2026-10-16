@@ -1,0 +1,47 @@
+# =============================================
+# Credenciais e chaves de API
+# =============================================
+credentials/
+auth.json
+youtube_key.json
+*.secret
+*.env
+
+# =============================================
+# Datasets grandes (CSV, Excel, ZIP)
+# Mantenha os dados localmente, mas não suba
+# para o GitHub. Adicione instruções no README
+# sobre como obtê-los.
+# =============================================
+*.csv
+*.xlsx
+*.zip
+
+# =============================================
+# Checkpoints do Jupyter Notebook
+# =============================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# =============================================
+# Cache do Python
+# =============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# =============================================
+# Ambientes virtuais
+# =============================================
+venv/
+.venv/
+env/
+
+# =============================================
+# Sistema operacional
+# =============================================
+.DS_Store
+Thumbs.db
+*.swp
+*~
